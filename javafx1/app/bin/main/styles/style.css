@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "Midnew";
+	src: local("sample"), url("../fonts/midnew.ttf") format("truetype");
+}
+
+#title {
+	-fx-text-fill: #fff;
+	-fx-font-weight: bold;
+	-fx-font-size: 38px;
+	-fx-font-family: "Midnew";
+}
+
+StackPane {
+	-fx-background-color: #0e1822;
+}
+
+Label {
+	-fx-text-fill: #fff;
+	-fx-font-size: 18px;
+}
+
+TextField {
+	-fx-min-width: 100px;
+	-fx-min-height: 40px;
+	-fx-max-width: 200px;
+	-fx-max-height: 80px;
+	-fx-font-size: 18px;
+}
+
+Button {
+	-fx-background-color: #fa4754;
+	-fx-text-fill: #fff;
+	-fx-min-width: 100px;
+	-fx-min-height: 40px;
+	-fx-max-width: 200px;
+	-fx-max-height: 80px;
+	-fx-font-size: 18px;
+}
+
+#vBottom {
+	-fx-min-height: 200px;
+	-fx-min-width: 100px;
+	-fx-max-width: 200px;
+}
+
+#vResult {
+	-fx-background-radius: 8;
+	-fx-min-height: 200px;
+	-fx-min-width: 100px;
+	-fx-max-width: 200px;
+	-fx-padding: 10;
+}
+
+#lResult {
+	-fx-text-fill: #080d13;
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+#lBmi {
+	-fx-text-fill: #080d13;
+	-fx-font-size: 32px;
+	-fx-font-weight: bold;
+}
