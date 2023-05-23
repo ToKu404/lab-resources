@@ -1,3 +1,4 @@
+```
 jar {
     duplicatesStrategy = 'exclude'
     manifest {
@@ -7,3 +8,4 @@ jar {
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
+```
