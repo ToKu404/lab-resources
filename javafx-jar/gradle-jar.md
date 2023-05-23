@@ -1,4 +1,4 @@
-## SIMPAN DI BUILD GRADLE
+## TAMBAHKAN KE BUILD GRADLE
 ```
 jar {
     duplicatesStrategy = 'exclude'
