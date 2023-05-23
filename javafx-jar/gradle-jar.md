@@ -3,6 +3,7 @@ https://openjfx.io/openjfx-docs/#next-steps
 
 ## TAMBAHKAN KE BUILD GRADLE
 ```
+mainClassName = '<package_name>.App'
 jar {
     duplicatesStrategy = 'exclude'
     manifest {
@@ -24,7 +25,7 @@ jar {
 
 ## MENJALANKAN FILE JAR
 ```
-java -jar /app/src/main/java/<package_name>/app.jar
+java -jar app/build/libs/app.jar
 ```
 
 ## LINK CONVERTER JAR TO EXE
