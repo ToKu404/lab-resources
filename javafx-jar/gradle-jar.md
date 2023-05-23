@@ -1,3 +1,6 @@
+# LINK DOCS
+https://openjfx.io/openjfx-docs/#next-steps
+
 ## TAMBAHKAN KE BUILD GRADLE
 ```
 jar {
